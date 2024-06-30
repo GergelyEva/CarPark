@@ -1,0 +1,30 @@
+.navigation-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+    margin: 0;
+}
+
+.navigation-menu ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.navigation-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navigation-menu ul li a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}

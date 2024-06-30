@@ -1,0 +1,11 @@
+.sorting-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sort-dropdown {
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+}

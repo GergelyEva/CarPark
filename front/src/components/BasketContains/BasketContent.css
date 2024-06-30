@@ -1,0 +1,33 @@
+.basket-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    min-width: 200px;
+    display: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-top: 10px; */
+}
+
+.basket-button:hover .basket-content {
+    display: block;
+}
+
+.basket-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.basket-item-image {
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}

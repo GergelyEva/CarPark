@@ -1,0 +1,56 @@
+.filter-cars {
+    position: relative;
+  }
+  
+  .filters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+  
+  .filter-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-section label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .filter-section select,
+  .filter-section input {
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+  }
+  
+  .price-range-values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .filter-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .filter-actions button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .filter-actions button:hover {
+    background-color: #333;
+  }
+  

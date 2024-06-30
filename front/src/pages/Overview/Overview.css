@@ -1,0 +1,50 @@
+.overview {
+    text-align: center;
+}
+
+.car-images {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 90vw;
+    height: 85vh; 
+    overflow: hidden; 
+}
+
+.car-image {
+    width: 100%;
+    height: 100%;
+}
+
+.car-image img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.navigation-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box; 
+    pointer-events: none; 
+}
+
+.nav-button {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    pointer-events: all; 
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
